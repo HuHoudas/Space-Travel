@@ -1,11 +1,11 @@
-h1 {
-  color: #153363;
+.homePage h1 {
+  color: #ffffff;
   font-family: var(--font_title);
   font-size: calc(60vw / 10);
-  text-shadow: 2px 2px 3px #c2f8fd; 
+  text-shadow: 2px 2px 3px #303236;
 }
 
-h1:hover {
+.homePage h1:hover {
   font-size: calc(61vw / 10);
 }
 
@@ -16,15 +16,41 @@ body {
   background-size: cover;
 }
 
-.homePage  {
-
+.homePage {
   width: fit-content;
-
 }
 
 .homePage a {
-
   background-color: #153363;
- color: white;
-  
+  color: white;
+}
+
+.homePage a:hover {
+  background-color: #153363;
+  color: white;
+}
+
+.homePage a:hover {
+  background-color: #153363;
+  color: white;
+}
+
+.homeFooter h2 {
+  color: white;
+  font-family: var(--font_title);
+  text-shadow: 1px 1px 2px #c2f8fd;
+  font-size: var(--font_title);
+  padding-top: 5px;
+  padding-right: 25px;
+}
+
+.homeFooter div {
+  background-color: #171c24;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.homeFooter {
+  padding-left: 0px;
+  padding-right: 0px;
 }
