@@ -12,6 +12,10 @@ body {
   background-size: cover;
 }
 
+.homePage {
+  width: fit-content;
+}
+
 .homeFooter h2 {
   color: white;
   font-family: var(--font_title);

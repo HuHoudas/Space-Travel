@@ -1,0 +1,54 @@
+.backImg {
+    background-image: url(../images/different-solar-system-galaxy-live-1i5cp36dlzghw3yx.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aLink{
+    width: fit-content;
+    transition: transform .1s;
+}
+
+.bLink{
+    transition: transform .1s;
+}
+
+.aLink:hover{
+    border-radius: 70%;
+    width: 350px;
+}
+
+.bLink:hover{
+    width: 300px;
+}
+
+.planete1 {
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
+.planete2 {
+    position: absolute;
+    top: 140px;
+    left: 200px;
+}
+.planete3 {
+    position: absolute;
+    bottom: 150px;
+    right: 100px;
+}
+.planete4 {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+}
+.planete5 {
+    position: absolute;
+    bottom: 30px;
+    right: 52%;
+}
+
+.title {
+    margin-top: 30px;
+    font-family: var(--font_main_title);
+    font-size: 5rem;
+}
