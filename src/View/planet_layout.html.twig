@@ -10,6 +10,7 @@
 			{% block title %}{% endblock %}
 		</title>
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+		<link rel="stylesheet" href="/assets/css/root.css">
 		<link rel="stylesheet" href="/assets/css/planets.css"> {% block stylesheet %}{% endblock %}{% block grandChildStylesheets %}{% endblock %}
 		</head>
 
@@ -18,20 +19,20 @@
 				{% block content %}
 					<section class="section">
 						<div class="container">
-							<div class="m-4">
-								<h1 class="planet-name text-center">{{ planet.name }}Hello!</h1>
-							</div>
-							<div class="card m-5">
-								<img src="..." class="card-img-top" alt="...">
-								<div class="card-body">
-									<h5 class="card-title">Card title</h5>
-									<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-									<p class="card-text">
-										
-									</p>
+							<div class="planet-background card m-5">
+								<img src="..." class="card-img" alt="...">
+								<div class="card-img-overlay text-light">
+									<h1 class="title card-title m-3">{{ planet.name }}Hello!</h1>
+                                    <h2 class="subtitle fs-3 m-3">Informations</h2>
+									<p class="text card-text m-3">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+									</br>
+                                    <h2 class="subtitle fs-3 m-3">Notre package exclusif inclut:</h2>
+                                    <p class="text card-text m-3">Another paragraph here with allll the activities!</p>
+									<div class="d-flex align-items-end justify-content-between m-3">
+										<a class="text btn btn-outline-secondary m-3" href="#">Retour</a>
+									</div>
 								</div>
 							</div>
-
 						</div>
 					</section>
 				{% endblock %}

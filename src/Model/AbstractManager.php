@@ -43,7 +43,7 @@ abstract class AbstractManager
         $statement->bindValue('id', $id, \PDO::PARAM_INT);
         $statement->execute();
 
-        return $statement->fetchAll();
+        return $statement->fetch();
     }
 
     /**
