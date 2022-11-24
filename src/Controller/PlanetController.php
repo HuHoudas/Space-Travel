@@ -13,7 +13,7 @@ class PlanetController extends AbstractController
         $planets = $planetManager->selectAll();
 
         return $this->twig->render(
-            '/planet_layout.html.twig',
+            'Planet/planet_layout.html.twig',
             [
                 
                 'planets' => $planets
