@@ -1,0 +1,17 @@
+.background-image {
+  background-image: url("../images/BackGroundFIX.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.planet-background{
+    background-color: var(--bs-secondary-rgb);
+}
+
+.title, .subtitle {
+    font-family: var(--font_title);
+    }
+
+.text {
+    font-family: var(--font_body);
+}
