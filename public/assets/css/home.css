@@ -5,33 +5,15 @@
   text-shadow: 2px 2px 3px #303236;
 }
 
-.homePage h1:hover {
-  font-size: calc(61vw / 10);
-}
-
 body {
   background-image: url(/assets/images/PhotoTerre.webp);
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .homePage {
   width: fit-content;
-}
-
-.homePage a {
-  background-color: #153363;
-  color: white;
-}
-
-.homePage a:hover {
-  background-color: #153363;
-  color: white;
-}
-
-.homePage a:hover {
-  background-color: #153363;
-  color: white;
 }
 
 .homeFooter h2 {
@@ -52,4 +34,9 @@ body {
 .homeFooter {
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.homeTardis svg {
+color: white;
+text-shadow: 2px 2px 3px #303236;
 }
