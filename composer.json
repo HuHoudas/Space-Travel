@@ -1,0 +1,17 @@
+{
+    "name": "hhoudas/space-travel",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "HuHoudas",
+            "email": "hugo.houdas@epitech.eu"
+        }
+    ],
+    "require": {
+        "filp/whoops": "^2.14"
+    }
+}
