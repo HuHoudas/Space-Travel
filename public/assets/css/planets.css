@@ -9,7 +9,7 @@
 }
 
 .title, .subtitle {
-    font-family: var(--font_title);
+    font-family: var(--font_main_title);
     }
 
 .text {
