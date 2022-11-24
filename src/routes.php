@@ -9,4 +9,6 @@
 return [
     '' => ['HomeController', 'index',],
     'SolarSysteme' => ["SolarSystemeController", "index"],
+    'planet' => ['PlanetController', 'index'],
+    'contact' => ['ContactController', 'index', ['message']],
 ];

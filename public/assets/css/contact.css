@@ -1,0 +1,46 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Nasalization;
+    font-size: calc(40vw / 10);
+    text-shadow: 2px 2px 3px grey;
+  }
+    
+  body {
+    background-image: url(/assets/images/Photo\ terre.webp);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .tardis{
+    background-image: url(/assets/images/Tardis_form.png);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    height: 780px;
+    width: 550px;
+    
+
+   
+    
+
+  }
+
+  .form{    
+    width: 50%;
+    margin: auto;
+  }
+
+  .contenu {
+    padding-top: 170px;
+    font-family: Nasalization;
+    margin-top: 50px;
+    
+  }
+
+ 
+
+ 
+
+  

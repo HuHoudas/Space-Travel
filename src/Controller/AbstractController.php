@@ -26,13 +26,22 @@ abstract class AbstractController
             ]
         );
         $this->twig->addExtension(new DebugExtension());
-        $user = null;
-        if (isset($_SESSION['user_id'])) {
-            $userManager = new UserManager();
-            $user = $userManager->selectOneById($_SESSION['user_id']);
-        }
-        $this->twig->addGlobal('user', $user);
     }
+
+    public function isAuthorizedToAccess()
+    {
+        if (!isset($_SESSION['user_id'])) {
+            header('HTTP/1.1 401 Unauthorized');
+            header('Location: /error?code=401');
+            $user = null;
+            if (isset($_SESSION['user_id'])) {
+                $userManager = new UserManager();
+                $user = $userManager->selectOneById($_SESSION['user_id']);
+            }
+            $this->twig->addGlobal('user', $user);
+        }
+    }
+    
     public function authorisedUser()
     {
         if (!isset($_SESSION['user_id'])) {
