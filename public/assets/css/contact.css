@@ -1,9 +1,10 @@
 h1 {
     display: flex;
     justify-content: center;
-    color: #e0e4e7;
+    color: white;
     font-family: Nasalization;
     font-size: calc(40vw / 10);
+    text-shadow: 2px 2px 3px grey;
   }
     
   body {
