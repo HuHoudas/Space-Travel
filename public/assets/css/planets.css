@@ -1,11 +1,11 @@
 .background-image {
-  background-image: url("../images/BackGroundFIX.png");
+  background-image: url("../images/different-solar-system-galaxy-live-1i5cp36dlzghw3yx.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .planet-background{
-    background-color: var(--bs-secondary-rgb);
+    background-color: transparent;
 }
 
 .title, .subtitle {

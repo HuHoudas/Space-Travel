@@ -3,7 +3,6 @@
 namespace App\Model;
 
 use PDO;
-use Twig\TokenParser\FlushTokenParser;
 
 class PlanetManager extends AbstractManager 
 {
@@ -16,5 +15,11 @@ class PlanetManager extends AbstractManager
         $statement->execute();
 
         return $statement->fetch();
+    }
+
+    public function selectRandomPicture()
+    {
+        $statement = $this->pdo->query("SELECT * FROM " . self::TABLE . " WHERE id=:id");
+        $statement->fetch();
     }
 }
