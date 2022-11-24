@@ -1,6 +1,6 @@
 @font-face {
-    font-family:Nasalization;
-    src: url(/assets/fonts/nasalization-rg.otf);
+    font-family:Rufina;
+    src: url(/assets/fonts/Rufina-Regular.ttf);
 }
 
 @font-face {
@@ -21,7 +21,7 @@
     --bs-lightdark: var(--bs-lightdark-rgb);
     --box-shadow: rgba(0, 0, 0, 0.25);
     --navbar_height: 146px;
-    --font_title: Nasalization;
+    --font_title: Rufina;
     --font_body: Oxygen;
     --font-size-body: 1.5rem;
 }
