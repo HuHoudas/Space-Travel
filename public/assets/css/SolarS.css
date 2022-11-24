@@ -5,6 +5,11 @@
 }
 .aLink{
     width: fit-content;
+    transition: transform .1s;
+}
+
+.bLink{
+    transition: transform .1s;
 }
 
 .aLink:hover{
@@ -14,7 +19,6 @@
 
 .bLink:hover{
     width: 300px;
-
 }
 
 .planete1 {
@@ -39,6 +43,12 @@
 }
 .planete5 {
     position: absolute;
-    bottom: 0;
-    right: 45%;
+    bottom: 30px;
+    right: 52%;
+}
+
+.title {
+    margin-top: 30px;
+    font-family: var(--font_main_title);
+    font-size: 5rem;
 }

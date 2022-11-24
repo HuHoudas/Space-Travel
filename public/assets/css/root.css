@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family:Naza;
+    src: url(/assets/fonts/nasalization-rg.otf);
+}
+
+@font-face {
     font-family: Oxygen;
     src: url(/assets/fonts/Oxygen-Regular.ttf);
 }
@@ -21,7 +26,8 @@
     --bs-lightdark: var(--bs-lightdark-rgb);
     --box-shadow: rgba(0, 0, 0, 0.25);
     --navbar_height: 146px;
-    --font_title: Rufina;
+    --font_main_title: Naza;
+    --font_title:Rufina;
     --font_body: Oxygen;
     --font-size-body: 1.5rem;
 }
@@ -29,4 +35,8 @@
 body {
     background-color: rgb(var(--bs-light));
     line-height: 1.7;
+}
+
+* {
+    box-sizing: border-box;
 }
