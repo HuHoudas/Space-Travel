@@ -5,7 +5,7 @@
 }
 
 .planet-background{
-    background-color: var(--bs-secondary-rgb);
+    background-color: transparent;
 }
 
 .title, .subtitle {
