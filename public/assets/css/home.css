@@ -1,0 +1,16 @@
+h1 {
+  color: #2e577e;
+  font-family: Nasalization;
+  font-size: calc(40vw / 10);
+}
+
+h1:hover {
+  font-size: calc(43vw / 10);
+}
+
+body {
+  background-image: url(/assets/images/BackGroundFIX.png);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
