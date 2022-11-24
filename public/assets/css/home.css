@@ -1,8 +1,8 @@
 h1 {
   color: #153363;
-  font-family: Nasalization;
+  font-family: var(--font_title);
   font-size: calc(60vw / 10);
-  text-shadow: 2px 2px 3px #c2f8fd;
+  text-shadow: 2px 2px 3px #c2f8fd; 
 }
 
 h1:hover {
@@ -14,4 +14,17 @@ body {
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.homePage  {
+
+  width: fit-content;
+
+}
+
+.homePage a {
+
+  background-color: #153363;
+ color: white;
+  
 }
