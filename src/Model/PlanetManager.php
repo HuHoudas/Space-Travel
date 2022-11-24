@@ -17,4 +17,10 @@ class PlanetManager extends AbstractManager
 
         return $statement->fetch();
     }
+
+    public function selectRandomPicture()
+    {
+        $statement = $this->pdo->query("SELECT * FROM " . self::TABLE . " WHERE id=:id");
+        $statement = fetch();
+    }
 }

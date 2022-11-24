@@ -10,4 +10,5 @@ return [
     '' => ['HomeController', 'index',],
     'planet' => ['PlanetController', 'index'],
     'contact' => ['ContactController', 'index'],
+    '/api/planet/random' => ['API Controller', 'getRandomPicture'],
 ];
