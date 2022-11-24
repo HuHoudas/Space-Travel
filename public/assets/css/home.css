@@ -1,15 +1,16 @@
 h1 {
-  color: #2e577e;
+  color: #153363;
   font-family: Nasalization;
-  font-size: calc(40vw / 10);
+  font-size: calc(60vw / 10);
+  text-shadow: 2px 2px 3px #c2f8fd;
 }
 
 h1:hover {
-  font-size: calc(43vw / 10);
+  font-size: calc(61vw / 10);
 }
 
 body {
-  background-image: url(/assets/images/BackGroundFIX.png);
+  background-image: url(/assets/images/PhotoTerre.webp);
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
