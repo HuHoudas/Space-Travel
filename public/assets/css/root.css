@@ -1,6 +1,11 @@
 @font-face {
-  font-family: Nasalization;
-  src: url(/assets/fonts/nasalization-rg.otf);
+    font-family:Rufina;
+    src: url(/assets/fonts/Rufina-Regular.ttf);
+}
+
+@font-face {
+    font-family:Naza;
+    src: url(/assets/fonts/nasalization-rg.otf);
 }
 
 @font-face {
@@ -9,24 +14,29 @@
 }
 
 :root {
-  --bs-primary-rgb: 31, 28, 198;
-  --bs-primary: rgb(var(--bs-primary-rgb));
-  --bs-secondary-rgb: rgb(49, 97, 136);
-  --bs-secondary: rgb(var(--bs-secondary-rgb));
-  --bs-dark-rgb: 24, 23, 23;
-  --bs-dark: rgb(var(--bs-dark-rgb));
-  --bs-light-rgb: 250, 250, 253;
-  --bs-light: rgb(var(--bs-light-rgb));
-  --bs-lightdark-rgb: rgb(234, 232, 232);
-  --bs-lightdark: var(--bs-lightdark-rgb);
-  --box-shadow: rgba(0, 0, 0, 0.25);
-  --navbar_height: 146px;
-  --font_title: Nasalization;
-  --font_body: Oxygen;
-  --font-size-body: 1.5rem;
+    --bs-primary-rgb: 31, 28, 198;
+    --bs-primary: rgb(var(--bs-primary-rgb));
+    --bs-secondary-rgb: rgb(141, 175, 203);
+    --bs-secondary: rgb(var(--bs-secondary-rgb));
+    --bs-dark-rgb: 24, 23, 23;
+    --bs-dark: rgb(var(--bs-dark-rgb));
+    --bs-light-rgb: 250, 250, 253;
+    --bs-light: rgb(var(--bs-light-rgb));
+    --bs-lightdark-rgb: rgb(234, 232, 232);
+    --bs-lightdark: var(--bs-lightdark-rgb);
+    --box-shadow: rgba(0, 0, 0, 0.25);
+    --navbar_height: 146px;
+    --font_main_title: Naza;
+    --font_title:Rufina;
+    --font_body: Oxygen;
+    --font-size-body: 1.5rem;
 }
 
 body {
-  background-color: rgb(var(--bs-light));
-  line-height: 1.7;
+    background-color: rgb(var(--bs-light));
+    line-height: 1.7;
+}
+
+* {
+    box-sizing: border-box;
 }

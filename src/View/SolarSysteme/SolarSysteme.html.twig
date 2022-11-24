@@ -1,0 +1,30 @@
+{% extends "visitor_layout.html.twig" %}
+
+{% block stylesheet %}
+	<link rel="stylesheet" href="/assets/css/SolarS.css"/>
+{% endblock %}
+
+{% block content %}
+	<body class="backImg">
+		<form method="post">
+			<div>
+            <div class="planete2">
+				<a  href="/planet?id=1"><img class="bLink" src='/assets/images/Planete 2.png' ></a>
+			</div>
+            <div class="planete1">
+            	<a href="/planet?id=2"><img class="aLink" src='/assets/images/Planete 1.png' ></a>
+			</div>
+				<h2 class="d-flex justify-content-center text-white title">Systeme Solaire</h2>
+            <div class="planete4">
+				<a href="/planet?id=3"><img class="aLink" src='/assets/images/Planete 4.png' ></a>
+			</div>
+            <div class="planete5">
+				<a href="/planet?id=4"><img class="bLink" src='/assets/images/Planete 5.png' ></a>
+			</div>
+            <div class="planete3">
+				<a href="/planet?id=5"><img class="aLink" src='/assets/images/Planete 3.png' ></a>
+			</div>
+			</div>
+		</form>
+	</body>
+{% endblock %}
