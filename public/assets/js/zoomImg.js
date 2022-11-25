@@ -7,7 +7,8 @@ const para = document.createElement('h2')
 const image = document.body
 
 teste1.addEventListener('mouseover', (event) => {
-    event.target.style.setProperty('transform', 'scale(2) translate(100px, 65px)')
+    event.target.style.setProperty('transform', 'scale(2.5) translate(150px, 105px)')
+    event.target.style.setProperty('transition-duration', '2s')
     teste2.style.setProperty("display", "none")
     teste3.style.setProperty("display", "none")
     teste4.style.setProperty("display", "none")
@@ -21,6 +22,7 @@ teste1.addEventListener('mouseover', (event) => {
 })
 teste2.addEventListener('mouseover', (event) => {
     event.target.style.setProperty('transform', 'scale(2) translate(-120px, 80px)')
+    event.target.style.setProperty('transition-duration', '2s')
     teste1.style.setProperty("display", "none")
     teste3.style.setProperty("display", "none")
     teste4.style.setProperty("display", "none")
@@ -33,7 +35,8 @@ teste2.addEventListener('mouseover', (event) => {
     teste2.appendChild(para)
 })
 teste3.addEventListener('mouseover', (event) => {
-    event.target.style.setProperty('transform', 'scale(2) translate(120px, -20px)')
+    event.target.style.setProperty('transform', 'scale(3) translate(150px, -40px)')
+    event.target.style.setProperty('transition-duration', '2s')
     teste1.style.setProperty("display", "none")
     teste2.style.setProperty("display", "none")
     teste4.style.setProperty("display", "none")
@@ -46,7 +49,8 @@ teste3.addEventListener('mouseover', (event) => {
     teste3.appendChild(para)
 })
 teste4.addEventListener('mouseover', (event) => {
-    event.target.style.setProperty('transform', 'scale(2) translate(20px, -20px)')
+    event.target.style.setProperty('transform', 'scale(2) translate(20px, -60px)')
+    event.target.style.setProperty('transition-duration', '2s')
     teste1.style.setProperty("display", "none")
     teste2.style.setProperty("display", "none")
     teste3.style.setProperty("display", "none")
@@ -59,7 +63,9 @@ teste4.addEventListener('mouseover', (event) => {
     teste4.appendChild(para)
 })
 teste5.addEventListener('mouseover', (event) => {
-    event.target.style.setProperty('transform', 'scale(2) translate(-140px, -20px)')
+    event.target.style.setProperty('transform', 'scale(3) translate(-170px, -40px)')
+    event.target.style.setProperty('transition-duration', '2s')
+    event.target.style.setProperty('overflow', 'hidden')
     teste1.style.setProperty("display", "none")
     teste2.style.setProperty("display", "none")
     teste3.style.setProperty("display", "none")
@@ -74,6 +80,7 @@ teste5.addEventListener('mouseover', (event) => {
 
 teste1.addEventListener("mouseout", (event)=> {
     event.target.style.setProperty("transform", 'scale(1) translate(0px)')
+    event.target.style.setProperty('transition-duration', '1s')
     teste4.style.setProperty("display", "block")
     teste2.style.setProperty("display", "block")
     teste3.style.setProperty("display", "block")
@@ -82,6 +89,7 @@ teste1.addEventListener("mouseout", (event)=> {
 })
 teste2.addEventListener("mouseout", (event)=> {
     event.target.style.setProperty("transform", 'scale(1) translate(0px)')
+    event.target.style.setProperty('transition-duration', '1s')
     teste4.style.setProperty("display", "block")
     teste1.style.setProperty("display", "block")
     teste3.style.setProperty("display", "block")
@@ -90,6 +98,7 @@ teste2.addEventListener("mouseout", (event)=> {
 })
 teste3.addEventListener("mouseout", (event)=> {
     event.target.style.setProperty("transform", 'scale(1) translate(0px)')
+    event.target.style.setProperty('transition-duration', '1s')
     teste4.style.setProperty("display", "block")
     teste1.style.setProperty("display", "block")
     teste2.style.setProperty("display", "block")
@@ -98,6 +107,7 @@ teste3.addEventListener("mouseout", (event)=> {
 })
 teste4.addEventListener("mouseout", (event)=> {
     event.target.style.setProperty("transform", 'scale(1) translate(0px)')
+    event.target.style.setProperty('transition-duration', '1s')
     teste1.style.setProperty("display", "block")
     teste2.style.setProperty("display", "block")
     teste3.style.setProperty("display", "block")
@@ -106,6 +116,7 @@ teste4.addEventListener("mouseout", (event)=> {
 })
 teste5.addEventListener("mouseout", (event)=> {
     event.target.style.setProperty("transform", 'scale(1) translate(0px)')
+    event.target.style.setProperty('transition-duration', '1s')
     teste1.style.setProperty("display", "block")
     teste2.style.setProperty("display", "block")
     teste3.style.setProperty("display", "block")
