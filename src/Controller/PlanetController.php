@@ -19,13 +19,21 @@ class PlanetController extends AbstractController
         $content = $response->toArray();
         $oui = [];
         $planetName = $planetManager->selectOneById($id);
-        foreach ($content as $contente) {
-            foreach ($contente as $contentes) {
-                if ($contentes['name'] === $planetName['PlanetName']) {
-                    $oui = $contentes;
+        if ($id != 5) {
+            foreach ($content as $contente) {
+                foreach ($contente as $contentes) {
+                    if ($contentes['name'] === $planetName['PlanetName']) {
+                        $oui = $contentes;
+                    }
                 }
             }
+        }else {
+            $oui['name'] = "Pandora";
+            $oui['perihelion'] = 128426642;
+            $oui['gravity'] = 9.3;
+            $oui['sideralOrbit'] = 538.35;
         }
+    //  var_dump($planetName);exit();
         // recupérer la bonne planète 
         return $this->twig->render(
             'Planet/planet_layout.html.twig',
