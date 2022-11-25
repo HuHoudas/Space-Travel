@@ -9,8 +9,8 @@
 }
 
 @font-face {
-    font-family: Oxygen;
-    src: url(/assets/fonts/Oxygen-Regular.ttf);
+  font-family: Oxygen;
+  src: url(/assets/fonts/Oxygen-Regular.ttf);
 }
 
 :root {
@@ -40,4 +40,3 @@ body {
 * {
     box-sizing: border-box;
 }
-} 
