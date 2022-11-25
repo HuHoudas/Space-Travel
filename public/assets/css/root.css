@@ -40,3 +40,34 @@ body {
 * {
     box-sizing: border-box;
 }
+
+.homeFooter h2 {
+    color: white;
+    font-family: var(--font_main_title);
+    text-shadow: 1px 1px 2px #c2f8fd;
+    padding-top: 5px;
+    padding-right: 25px;
+    font-size: 15px;
+  }
+  
+  .homeFooter div {
+    background-color: #171c24;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .homeFooter {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .homeFooter a {
+    color: white;
+    text-shadow: 2px 2px 3px #303236;
+  }
+  
+  .homeTardis svg {
+    color: white;
+    text-shadow: 2px 2px 3px #303236;
+  }
+  

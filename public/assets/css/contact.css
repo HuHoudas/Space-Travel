@@ -39,7 +39,10 @@ h1 {
     background-image: url(/assets/images/Tardis_form.png);
   }
 
- 
+  .homeFooter a {
+    color: white;
+    text-shadow: 2px 2px 3px #303236;
+  }
 
  
 
