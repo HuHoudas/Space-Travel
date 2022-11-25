@@ -7,13 +7,13 @@ const para = document.createElement('h2')
 const image = document.body
 
 teste1.addEventListener('mouseover', (event) => {
-    event.target.style.setProperty('transform', 'scale(5) translate(100px, 60px)')
+    event.target.style.setProperty('transform', 'scale(5) translate(100px, 65px)')
     teste2.style.setProperty("display", "none")
     teste3.style.setProperty("display", "none")
     teste4.style.setProperty("display", "none")
     teste5.style.setProperty("display", "none")
     para.style.setProperty('display', 'block')
-    para.style.color = "white"
+    para.style.color = "black"
     para.textContent = 'Mars'
     para.style.setProperty("font-size", "4rem")
     para.style.setProperty("transform", 'translate(500px, -300px)')
@@ -26,20 +26,20 @@ teste2.addEventListener('mouseover', (event) => {
     teste4.style.setProperty("display", "none")
     teste5.style.setProperty("display", "none")
     para.style.setProperty('display', 'block')
-    para.style.color = "white"
+    para.style.color = "black"
     para.textContent = 'Jupiter'
     para.style.setProperty("font-size", "4rem")
     para.style.setProperty("transform", 'translate(-600px, -300px)')
     teste2.appendChild(para)
 })
 teste3.addEventListener('mouseover', (event) => {
-    event.target.style.setProperty('transform', 'scale(5) translate(130px, 20px)')
+    event.target.style.setProperty('transform', 'scale(5) translate(120px, -20px)')
     teste1.style.setProperty("display", "none")
     teste2.style.setProperty("display", "none")
     teste4.style.setProperty("display", "none")
     teste5.style.setProperty("display", "none")
     para.style.setProperty('display', 'block')
-    para.style.color = "white"
+    para.style.color = "black"
     para.textContent = 'Vénus'
     para.style.setProperty("font-size", "4rem")
     para.style.setProperty("transform", 'translate(600px, -700px)')
@@ -52,20 +52,20 @@ teste4.addEventListener('mouseover', (event) => {
     teste3.style.setProperty("display", "none")
     teste5.style.setProperty("display", "none")
     para.style.setProperty('display', 'block')
-    para.style.color = "white"
+    para.style.color = "black"
     para.textContent = 'Terre'
     para.style.setProperty("font-size", "4rem")
-    para.style.setProperty("transform", 'translate(180px, -800px)')
+    para.style.setProperty("transform", 'translate(180px, -700px)')
     teste4.appendChild(para)
 })
 teste5.addEventListener('mouseover', (event) => {
-    event.target.style.setProperty('transform', 'scale(5) translate(-130px, 20px)')
+    event.target.style.setProperty('transform', 'scale(5) translate(-140px, -20px)')
     teste1.style.setProperty("display", "none")
     teste2.style.setProperty("display", "none")
     teste3.style.setProperty("display", "none")
     teste4.style.setProperty("display", "none")
     para.style.setProperty('display', 'block')
-    para.style.color = "white"
+    para.style.color = "black"
     para.textContent = 'Pandora'
     para.style.setProperty("font-size", "4rem")
     para.style.setProperty("transform", 'translate(-700px, -650px)')
