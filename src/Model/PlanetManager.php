@@ -10,20 +10,8 @@ class PlanetManager extends AbstractManager
 
     public function selectOneById(int $id): array
     {
-        $statement = $this->pdo->prepare("SELECT * FROM " . self::TABLE . " WHERE id=:id");
-        $statement->bindValue('id', $id, \PDO::PARAM_INT);
-        $statement->execute();
+        $statement = $this->pdo->query("SELECT * FROM " . self::TABLE . " WHERE id=:id");
 
         return $statement->fetch();
-    }
-
-    public function selectRandomPicture(string $picture)
-    {
-    $statement = $this->pdo->query("SELECT * FROM " . self::TABLE . " WHERE id=:id");
-    $statement->bindValue('id', $id, \PDO::PARAM_INT);
-    $statement->bindValue('id', $url, \PDO::PARAM_STR);
-    $statement->execute();
-
-    return "$picture";
     }
 }

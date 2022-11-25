@@ -13,12 +13,12 @@ class PlanetApiController extends AbstractController
        header('Content-Type: application/json'); 
     }
 
-    public function getPlanetPicture(int $id): string
+    public function getPlanetInfo($id): string
     {
-        $articleManager = new PlanetManager();
-        $planets = $articleManager->selectOneById($id);
+        $planetManager = new PlanetManager();
+        $planet = $planetManager->selectOneById($id);
 
-        return json_encode($planets);
+        return json_encode($planet);
     }
 
 }
