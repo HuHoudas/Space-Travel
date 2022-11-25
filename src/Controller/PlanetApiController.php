@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use App\Model\PlanetManager;
+use Symfony\Component\HttpClient\HttpClient;
 
 class PlanetApiController extends AbstractController
 {
@@ -10,15 +11,16 @@ class PlanetApiController extends AbstractController
     {
         parent::__construct();
 
-       header('Content-Type: application/json'); 
+        header('Content-Type: application/json');
     }
 
-    public function getPlanetPicture(int $id): string
+    public function getPlanetInfo($id): string
     {
-        $articleManager = new PlanetManager();
-        $planets = $articleManager->selectOneById($id);
+        var_dump($id);
+        exit();
+        $planetManager = new PlanetManager();
+        $planet = $planetManager->selectOneById($id);
 
-        return json_encode($planets);
+  
     }
-
 }

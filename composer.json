@@ -13,6 +13,7 @@
     ],
     "require": {
         "filp/whoops": "^2.14",
-        "twig/twig": "^3.4"
+        "twig/twig": "^3.4",
+        "symfony/http-client": "^6.1"
     }
 }
