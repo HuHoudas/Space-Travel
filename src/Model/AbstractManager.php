@@ -30,7 +30,7 @@ abstract class AbstractManager
             $query .= ' ORDER BY ' . $orderBy . ' ' . $direction;
         }
 
-        return $this->pdo->query($query)->fetchAll();
+        return $this->pdo->query($query)->fetch();
     }
 
     /**
@@ -39,7 +39,7 @@ abstract class AbstractManager
     public function selectOneById(int $id): array|false
     {
         // prepared request
-        $statement = $this->pdo->prepare("SELECT * FROM " . static::TABLE . " WHERE id=:id");
+        $statement = $this->pdo->prepare("SELECT * FROM " . static::TABLE . " WHERE idPlanet=:id");
         $statement->bindValue('id', $id, \PDO::PARAM_INT);
         $statement->execute();
 
