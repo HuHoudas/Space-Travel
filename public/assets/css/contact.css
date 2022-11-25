@@ -2,7 +2,7 @@ h1 {
     display: flex;
     justify-content: center;
     color: white;
-    font-family: Nasalization;
+    font-family: Naza;
     font-size: calc(40vw / 10);
     text-shadow: 2px 2px 3px grey;
   }
@@ -13,30 +13,11 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
   }
-
-  .tardis{
-    background-image: url(/assets/images/Tardis_form.png);
-    background-repeat: no-repeat;
-    background-size: cover;   
-    height: 750px;
-    width: 500px;
-   
-
-  }
-
-  .form{    
-    width: 50%;
-    margin: auto;
-  }
-
-  .contenu {
-    padding-top: 170px;
-    font-family: Nasalization;
-    margin-top: 50px;
+  .form {
+    
+    font-family: Naza;  
     
   }
-
-
 
   .homeFooter a {
     color: white;
