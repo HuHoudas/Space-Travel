@@ -32,14 +32,14 @@
 .bLink {
   transition: transform 0.1s;
   background-color: transparent;
-  width: 350px;
+  width: 380px;
   height: 350px;
 }
 
 .aLink {
   transition: transform 0.1s;
   background-color: transparent;
-  width: 350px;
+  width: 380px;
   height: 350px;
 }
 
@@ -109,3 +109,4 @@
   color: white;
   text-shadow: 2px 2px 3px #303236;
 }
+

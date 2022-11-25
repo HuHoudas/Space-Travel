@@ -4,19 +4,28 @@
   background-size: cover;
 }
 
-.planet-background{
-    background-color: transparent;
+.planet-background {
+  background-color: transparent;
 }
 
-.title, .subtitle {
-    font-family: var(--font_main_title);
-    }
+.title,
+.subtitle {
+  color: #ffffff;
+  font-family: var(--font_main_title);
+  font-size: calc(40vw / 10);
+  text-shadow: 2px 2px 3px #303236;
+}
 
 .text {
-    font-family: var(--font_body);
+  font-family: var(--font_body);
 }
 
 .homeFooter a {
-    color: white;
-    text-shadow: 2px 2px 3px #303236;
-  }
+  color: white;
+  text-shadow: 2px 2px 3px #303236;
+}
+
+.planeteUrl svg {
+  color: white;
+  text-shadow: 2px 2px 3px #303236;
+}
