@@ -11,7 +11,7 @@
 .title,
 .subtitle {
   color: #ffffff;
-  font-family: var(--font_title);
+  font-family: var(--font_main_title);
   font-size: calc(40vw / 10);
   text-shadow: 2px 2px 3px #303236;
 }
