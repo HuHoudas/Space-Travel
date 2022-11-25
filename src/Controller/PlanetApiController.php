@@ -10,7 +10,7 @@ class PlanetApiController extends AbstractController
     {
         parent::__construct();
 
-        header('Content-Type: application/json');
+       header('Content-Type: application/json'); 
     }
 
     public function getPlanetPicture(int $id): string
