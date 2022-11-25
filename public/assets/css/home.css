@@ -58,28 +58,32 @@ body {
 }
 
 p {
- 
+  color: white;
+  font-style: italic;
+  font-size: calc(10vw / 10);
   text-transform: uppercase;
   letter-spacing: 0.5em;
   display: inline-block;
-  border: 4px double rgba(81, 77, 77, 0.25);
   border-width: 4px 0;
   padding: 1.5em 0em;
-  top: 18%;
+  top: 20%;
   left: 50%;
-  width: 40em;
+  width: 30em;
   margin: 0 0 0 -20em;
+  text-shadow: 2px 2px 3px  #171c24;
 }
 p span {
+  color: transparent;
+  font-style: normal;
   font-family: var(--font_main_title);
-  font-size: calc(40vw / 10);
+  font-size: calc(45vw / 10);
   letter-spacing: 0;
   padding: 0.25em 0 0.325em;
   display: block;
   margin: 0 auto;
   text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
   /* Clip Background Image */
-  background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+  background: url(/assets/images/animated-text-fill.png) repeat-y;
   background-clip: text;
   background-clip: text;
   /* Animate Background Image */
@@ -98,3 +102,4 @@ p span {
     background-position: 100% 50%;
   }
 }
+
