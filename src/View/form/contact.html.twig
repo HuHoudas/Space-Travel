@@ -5,7 +5,15 @@
 
 
 {% block content %}
-	<h1 class="fw-bold text-center mt-2 {# fddf #} d-flex justify-content-start p-5 {# grgreg #}">Réservation</h1>
+	<h1 class="fw-bold text-center mt-1 {# fddf #} d-flex justify-content-start p-3 {# grgreg #}">
+		<p class=" justP d-flex flex-column justify-content-center ms-1">
+			L'Agence de voyage
+			<span class="space">
+				Réservation
+			</span>
+			&mdash; interplanétaire &mdash;
+		</p>
+	</h1>
 
 	<div class="container mt-2">
 		<div class="row d-flex justify-content-center">
@@ -27,7 +35,7 @@
 				{% endif %}
 
 
-				<section class="mt-3">
+				<section class="mt-1">
 
 
 					<form class="form p-4 fs-4" action="/thank" method="post" enctype="multipart/form-data">
