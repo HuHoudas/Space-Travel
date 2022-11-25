@@ -15,3 +15,8 @@
 .text {
     font-family: var(--font_body);
 }
+
+.homeFooter a {
+    color: white;
+    text-shadow: 2px 2px 3px #303236;
+  }
