@@ -32,6 +32,11 @@
 
 .para{
   text-shadow: 4px 2px 2px black;
+  font-size: 1.5rem;
+}
+
+.titleH2{
+  font-size: 3rem;
 }
 
 
