@@ -61,7 +61,7 @@ class ContactController extends AbstractController
         }
 
         if (empty($contact['firstname'])) {
-            $errors[] = 'Le nom est obligatoire';
+            $errors[] = 'Le prénom est obligatoire';
         }
 
         if (empty($contact['email'])) {

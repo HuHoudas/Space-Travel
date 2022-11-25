@@ -1,6 +1,6 @@
 .homePage h1 {
   color: #ffffff;
-  font-family: var(--font_title);
+  font-family: var(--font_main_title);
   font-size: calc(60vw / 10);
   text-shadow: 2px 2px 3px #303236;
 }
@@ -18,11 +18,11 @@ body {
 
 .homeFooter h2 {
   color: white;
-  font-family: var(--font_title);
+  font-family: var(--font_main_title);
   text-shadow: 1px 1px 2px #c2f8fd;
-  font-size: var(--font_title);
   padding-top: 5px;
   padding-right: 25px;
+  font-size: 15px;
 }
 
 .homeFooter div {
@@ -36,7 +36,12 @@ body {
   padding-right: 0px;
 }
 
-.homeTardis svg {
-color: white;
-text-shadow: 2px 2px 3px #303236;
+.homeFooter a {
+  color: white;
+  text-shadow: 2px 2px 3px #303236;
+}
+
+.arrow svg {
+  color: white;
+  text-shadow: 2px 2px 3px #303236;
 }

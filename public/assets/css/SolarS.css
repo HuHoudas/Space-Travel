@@ -1,54 +1,113 @@
 .backImg {
-    background-image: url(../images/different-solar-system-galaxy-live-1i5cp36dlzghw3yx.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.aLink{
-    width: fit-content;
-    transition: transform .1s;
+  background-image: url(/assets/images/different-solar-system-galaxy-live-1i5cp36dlzghw3yx.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.bLink{
-    transition: transform .1s;
+#test {
+  width: fit-content;
+  background-color: transparent;
+  border: none;
+}
+#test1 {
+  width: fit-content;
+  background-color: transparent;
+  border: none;
+}
+#test2 {
+  width: fit-content;
+  background-color: transparent;
+  border: none;
+}
+#test3 {
+  width: fit-content;
+  background-color: transparent;
+  border: none;
+}
+#test4 {
+  width: fit-content;
+  background-color: transparent;
+  border: none;
 }
 
-.aLink:hover{
-    border-radius: 70%;
-    width: 350px;
+.bLink {
+  transition: transform 0.1s;
+  background-color: transparent;
+  width: 380px;
+  height: 350px;
 }
 
-.bLink:hover{
-    width: 300px;
+.aLink {
+  transition: transform 0.1s;
+  background-color: transparent;
+  width: 380px;
+  height: 350px;
+}
+
+.aLink:hover {
+  border-radius: 70%;
+  width: 350px;
+}
+
+.bLink:hover {
+  width: 350px;
 }
 
 .planete1 {
-    position: absolute;
-    top: 50px;
-    right: 200px;
+  position: absolute;
+  top: 150px;
+  right: 200px;
 }
 .planete2 {
-    position: absolute;
-    top: 140px;
-    left: 200px;
+  position: absolute;
+  top: 100px;
+  left: 200px;
 }
 .planete3 {
-    position: absolute;
-    bottom: 150px;
-    right: 100px;
+  position: absolute;
+  bottom: 100px;
+  right: 200px;
 }
 .planete4 {
-    position: absolute;
-    bottom: 100px;
-    left: 100px;
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
 }
 .planete5 {
-    position: absolute;
-    bottom: 30px;
-    right: 52%;
+  position: absolute;
+  bottom: 30px;
+  right: 47%;
 }
 
 .title {
-    margin-top: 30px;
-    font-family: var(--font_main_title);
-    font-size: 5rem;
+  color: #ffffff;
+  font-family: var(--font_main_title);
+  font-size: calc(59vw / 10);
+  text-shadow: 2px 2px 3px #303236;
 }
+
+.homeFooter h2 {
+  color: white;
+  font-family: var(--font_main_title);
+  text-shadow: 1px 1px 2px #c2f8fd;
+  padding-top: 5px;
+  padding-right: 25px;
+  font-size: 15px;
+}
+
+.homeFooter div {
+  background-color: #171c24;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.homeFooter {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.homeTardis svg {
+  color: white;
+  text-shadow: 2px 2px 3px #303236;
+}
+

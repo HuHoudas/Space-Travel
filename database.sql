@@ -34,6 +34,7 @@ CREATE TABLE
 
 ALTER TABLE `Planet` ADD `PlanetURL` VARCHAR(100);
 
+
 INSERT INTO
     `Planet` (
         `idPlanet`,
