@@ -42,6 +42,10 @@ class ContactController extends AbstractController
             $errors[] = 'Le nom doit être inférieur à ' . self::MAX_FULLNAME_LENGTH . ' caractères';
         }
 
+        if (!filter_var($contact['manyPeople'], FILTER_VALIDATE_INT)) {
+            $errors[] = 'Le format nombre de personnes  est incorrect';
+        }
+
         if (strlen($contact['email']) > self::MAX_EMAIL_LENGTH) {
             $errors[] = 'L\'email doit être inférieur à ' . self::MAX_EMAIL_LENGTH . ' caractères';
         }
