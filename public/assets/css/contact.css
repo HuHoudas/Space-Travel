@@ -2,7 +2,7 @@ h1 {
     display: flex;
     justify-content: center;
     color: white;
-    font-family: Naza;
+    font-family: var(--font_title);
     font-size: calc(40vw / 10);
     text-shadow: 2px 2px 3px grey;
   }
@@ -13,36 +13,61 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
   }
-
-  .tardis{
-    background-image: url(/assets/images/Tardis_form.png);
-    background-repeat: no-repeat;
-    background-size: cover;   
-    height: 750px;
-    width: 500px;
-   
-
-  }
-
-  .form{    
-    width: 50%;
-    margin: auto;
-  }
-
-  .contenu {
-    padding-top: 170px;
-    font-family: Nasalization;
-    margin-top: 50px;
+  .form {
+    
+    font-family: Naza;  
     
   }
-
-
 
   .homeFooter a {
     color: white;
     text-shadow: 2px 2px 3px #303236;
   }
 
- 
+  p {
+    color: white;
+    font-style: italic;
+    font-size: calc(10vw / 10);
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    display: inline-block;
+    border-width: 4px 0;
+    padding: 1.5em 0em;
+    top: 20%;
+    left: 50%;
+    width: 30em;
+    margin: 0 0 0 -20em;
+    text-shadow: 2px 2px 3px  #171c24;
+  }
+  p span {
+    color: transparent;
+    font-style: normal;
+    font-family: var(--font_main_title);
+    font-size: calc(40vw / 10);
+    letter-spacing: 0;
+    padding: 0.25em 0 0.325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+    /* Clip Background Image */
+    background: url(/assets/images/animated-text-fill.png) repeat-y;
+    background-clip: text;
+    background-clip: text;
+    /* Animate Background Image */
+     text-emphasis-color: transparent;
+    animation: aitf 80s linear infinite;
+    /* Activate hardware acceleration for smoother animations */
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+  }
+  /* Animate Background Image */
+  @keyframes aitf {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
 
   
