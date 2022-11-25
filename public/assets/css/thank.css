@@ -14,32 +14,10 @@ h1 {
     background-size: cover;
   }
 
-  .tardis{
-    background-image: url(/assets/images/Tardis_form.png);
+  .tardisferme{
+    background-image: url(/assets/images/Tardispretasenvoler.png);
     background-repeat: no-repeat;
     background-size: cover;   
-    height: 750px;
-    width: 500px;
-   
-
+    height: 80px;
+    width: 60px;
   }
-
-  .form{    
-    width: 50%;
-    margin: auto;
-  }
-
-  .contenu {
-    padding-top: 170px;
-    font-family: Nasalization;
-    margin-top: 50px;
-    
-  }
-
-
-
- 
-
- 
-
-  
