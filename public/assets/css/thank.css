@@ -2,11 +2,11 @@ h1 {
     display: flex;
     justify-content: center;
     color: white;
-    font-family: Nasalization;
+    font-family: var(--font_main_title);
     font-size: calc(40vw / 10);
     text-shadow: 2px 2px 3px grey;
   }
-    
+
   body {
     background-image: url(/assets/images/Photo\ terre.webp);
     object-fit: cover;

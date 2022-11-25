@@ -20,6 +20,8 @@ ENGINE = InnoDB;
 
 ALTER TABLE `Planet` ADD `PlanetURL` VARCHAR(100);
 
+
+INSERT INTO `Planet` (`idPlanet`, `PlanetName`, `PlanetCoord`) VALUES (2, "jupiter", "oui" ), (1, "Mars", "oui"), (3, "Vénus", "oui"), (4, "La Terre", "oui"), (5, "Pandora", "oui");
 -- -----------------------------------------------------
 -- Table `mydb`.`Activity`
 -- -----------------------------------------------------
