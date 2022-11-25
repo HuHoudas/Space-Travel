@@ -9,14 +9,14 @@
 
 	<div class="container mt-2">
 		<div class="row d-flex justify-content-center">
-
-			<ul class="text-center mt-5">
+			<div class="col-lg-6 ">
+			<ul class="text-center mt-2	">
 				{% for error in errors %}
 					<li class="alert alert-danger">
 						{{ error }}</li>
 				{% endfor %}
 			</ul>
-
+</div>
 		</div>
 	</div>
 	<div class="container b-5">
@@ -30,7 +30,7 @@
 					<section class="container tardis">
 
 						<div class="contenu">
-							<form class="form" action="/" method="post" enctype="multipart/form-data" novalidate>
+							<form class="form" action="/thank" method="post" enctype="multipart/form-data" novalidate>
 
 
 								<div class="mt-2">
@@ -59,6 +59,7 @@
 								</div>
 							</form>
 						</div>
+
 					</div>
 				</div>
 			</div>

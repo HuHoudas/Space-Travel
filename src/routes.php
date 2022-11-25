@@ -9,6 +9,7 @@
 return [
     '' => ['HomeController', 'index',],
     'SolarSysteme' => ["SolarSystemeController", "index"],
+    'thank' => ['ThanksController', 'index'],
     'planet' => ['PlanetController', 'index'],
     '/api/planet/random' => ['PlanetAPIController', 'getRandomPicture'],
     'contact' => ['ContactController', 'index', ['message']],
