@@ -1,36 +1,114 @@
-let transform = even ? -250 : 0
-let index = activeImageIndex
+const teste1 = document.getElementById('test')
+const teste2 = document.getElementById('test1')
+const teste3 = document.getElementById('test2')
+const teste4 = document.getElementById('test3')
+const teste5 = document.getElementById('test4')
+const para = document.createElement('h2')
+const image = document.body
 
-container.addEventListener('click', event => {
-    const target = event.target
-    const carousel = container.querySelector('img')
-    const activeElement = container.querySelector('.active')
+teste1.addEventListener('mouseover', (event) => {
+    event.target.style.setProperty('transform', 'scale(5) translate(100px, 65px)')
+    teste2.style.setProperty("display", "none")
+    teste3.style.setProperty("display", "none")
+    teste4.style.setProperty("display", "none")
+    teste5.style.setProperty("display", "none")
+    para.style.setProperty('display', 'block')
+    para.style.color = "black"
+    para.textContent = 'Mars'
+    para.style.setProperty("font-size", "4rem")
+    para.style.setProperty("transform", 'translate(500px, -300px)')
+    teste1.appendChild(para)
+})
+teste2.addEventListener('mouseover', (event) => {
+    event.target.style.setProperty('transform', 'scale(5) translate(-120px, 80px)')
+    teste1.style.setProperty("display", "none")
+    teste3.style.setProperty("display", "none")
+    teste4.style.setProperty("display", "none")
+    teste5.style.setProperty("display", "none")
+    para.style.setProperty('display', 'block')
+    para.style.color = "black"
+    para.textContent = 'Jupiter'
+    para.style.setProperty("font-size", "4rem")
+    para.style.setProperty("transform", 'translate(-600px, -300px)')
+    teste2.appendChild(para)
+})
+teste3.addEventListener('mouseover', (event) => {
+    event.target.style.setProperty('transform', 'scale(5) translate(120px, -20px)')
+    teste1.style.setProperty("display", "none")
+    teste2.style.setProperty("display", "none")
+    teste4.style.setProperty("display", "none")
+    teste5.style.setProperty("display", "none")
+    para.style.setProperty('display', 'block')
+    para.style.color = "black"
+    para.textContent = 'Vénus'
+    para.style.setProperty("font-size", "4rem")
+    para.style.setProperty("transform", 'translate(600px, -700px)')
+    teste3.appendChild(para)
+})
+teste4.addEventListener('mouseover', (event) => {
+    event.target.style.setProperty('transform', 'scale(5) translate(20px, -20px)')
+    teste1.style.setProperty("display", "none")
+    teste2.style.setProperty("display", "none")
+    teste3.style.setProperty("display", "none")
+    teste5.style.setProperty("display", "none")
+    para.style.setProperty('display', 'block')
+    para.style.color = "black"
+    para.textContent = 'Terre'
+    para.style.setProperty("font-size", "4rem")
+    para.style.setProperty("transform", 'translate(180px, -700px)')
+    teste4.appendChild(para)
+})
+teste5.addEventListener('mouseover', (event) => {
+    event.target.style.setProperty('transform', 'scale(5) translate(-140px, -20px)')
+    teste1.style.setProperty("display", "none")
+    teste2.style.setProperty("display", "none")
+    teste3.style.setProperty("display", "none")
+    teste4.style.setProperty("display", "none")
+    para.style.setProperty('display', 'block')
+    para.style.color = "black"
+    para.textContent = 'Pandora'
+    para.style.setProperty("font-size", "4rem")
+    para.style.setProperty("transform", 'translate(-700px, -650px)')
+    teste5.appendChild(para)
+})
 
-    switch (target.dataset.target) {
-        case 'img':
-            if (trigger !== 'hover') {
-                target.classList.toggle('zoom')
-            } 
-        break
-        case 'left':
-            if (index !== 0) {
-                index--
-                transform += 500
-                carousel.style.transform = `translateX(${transform}px)`
-
-                activeElement.classList.remove('active')
-                activeElement.previousElementSibling.classList.add('active')
-            }
-        break
-        case 'right':
-            if (index !== images.length - 1) {
-                index++
-                transform -= 500
-                carousel.style.transform = `translateX(${transform}px)`
-
-                activeElement.classList.remove('active')
-                activeElement.nextElementSibling.classList.add('active')
-            }
-        break
-    }
+teste1.addEventListener("mouseout", (event)=> {
+    event.target.style.setProperty("transform", 'scale(1) translate(0px)')
+    teste4.style.setProperty("display", "block")
+    teste2.style.setProperty("display", "block")
+    teste3.style.setProperty("display", "block")
+    teste5.style.setProperty("display", "block")
+    para.style.setProperty('display', 'none')
+})
+teste2.addEventListener("mouseout", (event)=> {
+    event.target.style.setProperty("transform", 'scale(1) translate(0px)')
+    teste4.style.setProperty("display", "block")
+    teste1.style.setProperty("display", "block")
+    teste3.style.setProperty("display", "block")
+    teste5.style.setProperty("display", "block")
+    para.style.setProperty('display', 'none')
+})
+teste3.addEventListener("mouseout", (event)=> {
+    event.target.style.setProperty("transform", 'scale(1) translate(0px)')
+    teste4.style.setProperty("display", "block")
+    teste1.style.setProperty("display", "block")
+    teste2.style.setProperty("display", "block")
+    teste5.style.setProperty("display", "block")
+    para.style.setProperty('display', 'none')
+})
+teste4.addEventListener("mouseout", (event)=> {
+    event.target.style.setProperty("transform", 'scale(1) translate(0px)')
+    teste1.style.setProperty("display", "block")
+    teste2.style.setProperty("display", "block")
+    teste3.style.setProperty("display", "block")
+    teste5.style.setProperty("display", "block")
+    para.style.setProperty('display', 'none')
+})
+teste5.addEventListener("mouseout", (event)=> {
+    event.target.style.setProperty("transform", 'scale(1) translate(0px)')
+    teste1.style.setProperty("display", "block")
+    teste2.style.setProperty("display", "block")
+    teste3.style.setProperty("display", "block")
+    teste4.style.setProperty("display", "block")
+    para.style.setProperty('display', 'none')
 })

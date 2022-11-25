@@ -20,10 +20,6 @@ h1 {
     background-size: cover;   
     height: 780px;
     width: 550px;
-    
-
-   
-    
 
   }
 
@@ -37,6 +33,10 @@ h1 {
     font-family: Nasalization;
     margin-top: 50px;
     
+  }
+
+  .tardisferme{
+    background-image: url(/assets/images/Tardis_form.png);
   }
 
  
