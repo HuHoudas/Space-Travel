@@ -1,6 +1,7 @@
 {% extends 'layout.html.twig' %}
 
 {% block stylesheet %}
+	<link rel="stylesheet" href=url("https://www.cssportal.com/scss-to-css/"/>
 	<link rel="stylesheet" href="/assets/css/home.css"/>
 {% endblock %}
 
@@ -8,9 +9,10 @@
 {% block content %}
 	<body>
 		<section class="homePage d-flex justify-content-start">
-			<div class="">
-				<h1 class="d-flex flex-column justify-content-center mt-5 m-5">
-					Space Z</h1>
+			{# <div class="">
+				<p class="d-flex flex-column justify-content-center mt-5 m-5">
+					Space Z
+				<span class="d-flex flex-column justify-content-center ms-5 ">L'Agence de voyage interplanétaire</span></p> #}
 			</div>
 		</section>
 		<section class="top-50">
@@ -22,6 +24,15 @@
 				</a>
 			</div>
 		</section>
+		<p class=" justP d-flex flex-column justify-content-center mt-1 ms-1">
+			L'Agence de voyage
+			<span class="space">
+				Space Z
+			</span>
+			&mdash; interplanétaire &mdash;
+		</p>
+
 		{% include "_footer.html.twig" %}
+
 	</body>
 {% endblock %}
