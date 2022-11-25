@@ -11,7 +11,6 @@ class PlanetManager extends AbstractManager
     public function selectOneById(int $id): array
     {
         $statement = $this->pdo->query("SELECT * FROM " . self::TABLE . " WHERE id=:id");
-
         return $statement->fetch();
     }
 }
