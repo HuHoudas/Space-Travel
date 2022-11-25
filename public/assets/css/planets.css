@@ -1,17 +1,31 @@
 .background-image {
-  background-image: url("../images/BackGroundFIX.png");
+  background-image: url("../images/different-solar-system-galaxy-live-1i5cp36dlzghw3yx.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.planet-background{
-    background-color: var(--bs-secondary-rgb);
+.planet-background {
+  background-color: transparent;
 }
 
-.title, .subtitle {
-    font-family: var(--font_title);
-    }
+.title,
+.subtitle {
+  color: #ffffff;
+  font-family: var(--font_main_title);
+  font-size: calc(40vw / 10);
+  text-shadow: 2px 2px 3px #303236;
+}
 
 .text {
-    font-family: var(--font_body);
+  font-family: var(--font_body);
+}
+
+.homeFooter a {
+  color: white;
+  text-shadow: 2px 2px 3px #303236;
+}
+
+.planeteUrl svg {
+  color: white;
+  text-shadow: 2px 2px 3px #303236;
 }

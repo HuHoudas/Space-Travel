@@ -5,7 +5,7 @@
 
 
 {% block content %}
-	<h1 class="fw-bold text-center mt-2">Réservation</h1>
+	<h1 class="fw-bold text-center mt-2 {# fddf #} d-flex justify-content-start p-5 {# grgreg #}">Réservation</h1>
 
 	<div class="container mt-2">
 		<div class="row d-flex justify-content-center">
@@ -19,7 +19,7 @@
 </div>
 		</div>
 	</div>
-	<div class="container mt-2">
+	<div class="container b-5">
 		<div class="row d-flex justify-content-center">
 			<div class="col-lg-6 ">
 				{% if message == 'success' %}
@@ -27,8 +27,6 @@
 				{% endif %}
 
 				<div id="d1">
-
-
 					<section class="container tardis">
 
 						<div class="contenu">
@@ -64,9 +62,9 @@
 
 					</div>
 				</div>
-			</section>
-		
-		
+			</div>
+		</section>
+		{% include "_footer.html.twig" %}
 		{% block javascript %}
 			<script src="/assets/js/tardis.js"></script>
 		{% endblock %}
