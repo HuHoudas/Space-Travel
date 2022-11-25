@@ -36,9 +36,7 @@
 										jours</p>
 								</br>
 								<h2 class="subtitle fs-3 m-3">Notre package exclusif inclut:</h2>
-								{% for activity in activities %}
-									<p class="text card-text m-3 mb-5">Another paragraph here with allll the activities!</p>
-								{% endfor %}
+									<p class="text card-text m-3 mb-5">{{ activity|nl2br}}</p>
 
 								<div class="d-flex align-items-center justify-content-between">
 									<a class="btn btn-primary m-3" href="/SolarSysteme">Retour à nos voyages</a>

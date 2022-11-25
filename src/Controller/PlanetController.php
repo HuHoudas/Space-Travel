@@ -39,7 +39,8 @@ class PlanetController extends AbstractController
             'Planet/planet_layout.html.twig',
             [
 
-                'planet' => $oui
+                'planet' => $oui,
+                'activity' => $planetName['Description'],
             ]
         );
     }
