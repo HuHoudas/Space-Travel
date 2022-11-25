@@ -1,4 +1,5 @@
 h1 {
+
   display: flex;
   justify-content: center;
   color: white;
@@ -555,3 +556,4 @@ body {
     transform: rotate(-120deg) scale(1);
   }
 }
+
