@@ -1,3 +1,3 @@
 # Space-Travel
 
-Hackathon #01 effèctué en 32h
+Hackathon #01 en 32h
